@@ -1,5 +1,9 @@
 <app-container>
-  <app-cabecalho></app-cabecalho>
+  <app-cabecalho
+    [telaInicial]="true"
+    [bannerSrc]="'assets/imagens/banner.png'"
+    [titulo]="'Organize, conecte, simplifique!'"
+  ></app-cabecalho>
 
   <input
     type="search"
@@ -24,6 +28,8 @@
   <app-contato
     [nome]="contato.nome"
     [telefone]="contato.telefone"
+    [avatar]="contato.avatar"
+    [id]="contato.id"
   ></app-contato>
 
   } }

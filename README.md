@@ -24,6 +24,16 @@
 - Explorar o routerLink para facilitar redirecionamentos dentro da aplicação
 - Utilizar o serviço router e o método navigateByUrl para uma navegação programática eficaz
 
+### Angular: comunicando-se com uma API via requisições HTTP
+
+- Configurar o HttpClient para operações HTTP eficientes
+- Implementar um CRUD usando métodos HTTP (GET, POST, PUT, DELETE)
+- Compreender e assine Observables para lidar com dados assíncronos
+- Configurar e utilize o JSON Server como uma API simulada
+- Permitir a passagem de parâmetros na rota para facilitar a navegação
+- Adaptar e integrar componentes para reutilização eficaz
+- Promover boas práticas de componentização
+
 ## 🖥️ Tecnologias
 
 <div>
@@ -40,3 +50,4 @@
 ## 💻 Screenshot
 
 <img loading="lazy" src="screenshot.png" style="width: 100%"/>
+<img loading="lazy" src="screenshot-2.png" style="width: 100%"/>

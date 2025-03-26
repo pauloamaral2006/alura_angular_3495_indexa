@@ -8,12 +8,7 @@ import { ListaContatosComponent } from './paginas/lista-contatos/lista-contatos.
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [
-    CommonModule,
-    RouterOutlet,
-    FormularioContatoComponent,
-    ListaContatosComponent,
-  ],
+  imports: [CommonModule, RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })

@@ -1,13 +1,29 @@
 <section class="contato">
   <ul>
+    @if(avatar){
+
+    <img
+      [src]="avatar"
+      alt="avatar"
+      class="avatar"
+      [routerLink]="['/perfil-contato', id]"
+    />
+
+    }
     <li>
       <strong>{{ nome }}</strong>
     </li>
     <li>{{ telefone }}</li>
     <li>
-      <button>
+      <button [routerLink]="['/formulario', id]">
         <img src="/assets/imagens/pencil-square.png" alt="" />
-        <img src="/assets/imagens/trash.png" alt="" />
+      </button>
+      <button>
+        <img
+          [routerLink]="['/perfil-contato', id]"
+          src="/assets/imagens/trash.png"
+          alt=""
+        />
       </button>
     </li>
   </ul>
